@@ -44,6 +44,4 @@ data$longitude[which(data$Behörde == "Bielefeld")] <- 8.5324708
 data$latitude[which(data$Behörde == "Bielefeld")] <- 52.0302285
 
 colnames(data) <- c("Behoerde", "Delikt", "Monat", "bekanntgewordeneFaelle", "davonVersuche", "Aufklaerungsquote", "longitude", "latitude")
-
 write.csv(data, file="CrimeStatistic.csv", row.names = FALSE)
-
