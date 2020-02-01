@@ -9,12 +9,10 @@
 
 library(shiny)
 library(leaflet)
-library(leaflet.extras)
 library(dplyr)
 
 data <- read.csv("CrimeStatistic.csv")
 
-# Define UI for application that draws a histogram
 ui <- fluidPage(
     
     titlePanel("NRW Kriminalitaet"),
@@ -68,7 +66,6 @@ ui <- fluidPage(
     
 )
 
-# Define server logic required to draw a histogram
 server <- function(input, output, session) {
     
     datasetInput <- reactive({
@@ -103,5 +100,4 @@ server <- function(input, output, session) {
     
 }
 
-# Run the application
 shinyApp(ui = ui, server = server)
