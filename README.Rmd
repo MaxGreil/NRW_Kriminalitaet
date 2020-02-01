@@ -19,7 +19,7 @@ knitr::opts_chunk$set(
 NRW_Kriminalitaet is a R Shiny project to create an interactive map of crime statistics for 37 cities in North Rhine-Westphalia (state in Germany).
 
 ```{r, out.width = "100%", echo = FALSE}
-knitr::include_graphics('man/figures/UI.PNG')
+knitr::include_graphics('man/figures/UI.png')
 ```
 
 ## Data Origin
@@ -69,7 +69,7 @@ Via two select list input controls on the left specific crime ("Verbrechen") and
 Hovering the mouse over the cities marked via blue circles reveal the selected numbers for this city.
 
 ```{r, out.width = "100%", echo = FALSE}
-knitr::include_graphics('man/figures/UI2.PNG')
+knitr::include_graphics('man/figures/UI2.png')
 ```
 
 Additionally, basic statistics for the selected crime and year are desplayed below the map.

@@ -9,7 +9,7 @@ NRW\_Kriminalitaet is a R Shiny project to create an interactive map of
 crime statistics for 37 cities in North Rhine-Westphalia (state in
 Germany).
 
-<img src="man/figures/UI.PNG" width="100%" />
+<img src="man/figures/UI.png" width="100%" />
 
 ## Data Origin
 
@@ -65,7 +65,7 @@ Via two select list input controls on the left specific crime
 over the cities marked via blue circles reveal the selected numbers for
 this city.
 
-<img src="man/figures/UI2.PNG" width="100%" />
+<img src="man/figures/UI2.png" width="100%" />
 
 Additionally, basic statistics for the selected crime and year are
 desplayed below the map.
