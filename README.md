@@ -62,10 +62,10 @@ library(dplyr)
 
 Via two select list input controls on the left specific crime
 (“Verbrechen”) and year (“Jahr”) can be selected. Hovering the mouse
-over the cities marked via blue circles reveal the selected numbers for
+over the cities marked via blue circles reveals the selected numbers for
 this city.
 
 <img src="man/figures/UI2.png" width="100%" />
 
-Additionally, basic statistics for the selected crime and year are
-desplayed below the map.
+Additionally, basic statistics for the selected crime and year are shown
+below the map.
